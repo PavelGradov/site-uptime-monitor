@@ -1,0 +1,38 @@
+name: Website uptime monitor
+
+'on':
+  schedule:
+    - cron: '3,8,13,18,23,28,33,38,43,48,53,58 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: website-uptime-monitor
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - name: Get monitor files and previous measurements
+        uses: actions/checkout@v4
+      - name: Check website, save result, manage incident issue
+        env:
+          MONITOR_URL: https://pavelgradov.ru/
+          MONITOR_ASSIGNEE: PavelGradov
+          GH_TOKEN: ${{ github.token }}
+        run: python3 monitor.py
+      - name: Commit the current status and CSV log
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add status.json logs/
+          if ! git diff --staged --quiet; then
+            git commit -m "monitor: record availability [skip ci]"
+            git push
+          fi
