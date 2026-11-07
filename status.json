@@ -1,10 +1,10 @@
 {
   "current_status": "up",
   "consecutive_failures": 0,
-  "last_success_utc": "2026-11-07T13:44:04+00:00",
-  "checked_at_utc": "2026-11-07T13:44:04+00:00",
+  "last_success_utc": "2026-11-07T18:19:25+00:00",
+  "checked_at_utc": "2026-11-07T18:19:25+00:00",
   "url": "https://pavelgradov.ru/",
   "http_code": 200,
-  "response_ms": 1676,
+  "response_ms": 2678,
   "last_failure_utc": "2026-11-07T06:58:23+00:00"
 }
