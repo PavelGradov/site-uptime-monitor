@@ -1,12 +1,10 @@
 {
-  "current_status": "down",
-  "consecutive_failures": 6,
-  "last_success_utc": "2026-11-08T01:02:01+00:00",
-  "checked_at_utc": "2026-11-09T08:43:46+00:00",
+  "current_status": "up",
+  "consecutive_failures": 0,
+  "last_success_utc": "2026-11-09T19:09:35+00:00",
+  "checked_at_utc": "2026-11-09T19:09:35+00:00",
   "url": "https://pavelgradov.ru/",
-  "http_code": 502,
-  "response_ms": 784,
-  "last_failure_utc": "2026-11-09T08:43:46+00:00",
-  "incident_started_utc": "2026-11-08T07:05:20+00:00",
-  "open_issue_number": 2
+  "http_code": 200,
+  "response_ms": 1340,
+  "last_failure_utc": "2026-11-09T08:43:46+00:00"
 }
