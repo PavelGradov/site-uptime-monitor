@@ -1,11 +1,10 @@
 {
-  "current_status": "suspect",
-  "consecutive_failures": 1,
-  "last_success_utc": "2026-11-10T02:01:34+00:00",
-  "checked_at_utc": "2026-11-10T09:30:24+00:00",
+  "current_status": "up",
+  "consecutive_failures": 0,
+  "last_success_utc": "2026-11-10T17:13:32+00:00",
+  "checked_at_utc": "2026-11-10T17:13:32+00:00",
   "url": "https://pavelgradov.ru/",
-  "http_code": null,
-  "response_ms": 437,
-  "last_failure_utc": "2026-11-10T09:30:24+00:00",
-  "incident_started_utc": "2026-11-10T09:30:24+00:00"
+  "http_code": 200,
+  "response_ms": 2880,
+  "last_failure_utc": "2026-11-10T09:30:24+00:00"
 }
