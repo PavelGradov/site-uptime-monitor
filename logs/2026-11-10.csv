@@ -2,3 +2,4 @@ checked_at_utc,url,status,http_code,response_ms,attempts,error
 2026-11-10T02:01:34+00:00,https://pavelgradov.ru/,up,200,1969,1,
 2026-11-10T09:30:24+00:00,https://pavelgradov.ru/,down,,437,2,URLError: <urlopen error [Errno 111] Connection refused>
 2026-11-10T17:13:32+00:00,https://pavelgradov.ru/,up,200,2880,1,
+2026-11-10T22:22:31+00:00,https://pavelgradov.ru/,up,200,1526,1,
