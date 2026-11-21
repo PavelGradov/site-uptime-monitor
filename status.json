@@ -1,12 +1,12 @@
 {
   "current_status": "down",
-  "consecutive_failures": 5,
+  "consecutive_failures": 6,
   "last_success_utc": "2026-11-20T01:54:47+00:00",
-  "checked_at_utc": "2026-11-21T12:29:59+00:00",
+  "checked_at_utc": "2026-11-21T19:38:56+00:00",
   "url": "https://pavelgradov.ru/",
-  "http_code": 502,
-  "response_ms": 606,
-  "last_failure_utc": "2026-11-21T12:29:59+00:00",
+  "http_code": null,
+  "response_ms": 326,
+  "last_failure_utc": "2026-11-21T19:38:56+00:00",
   "incident_started_utc": "2026-11-20T09:16:11+00:00",
   "open_issue_number": 3
 }
