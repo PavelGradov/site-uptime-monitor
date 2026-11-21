@@ -1,0 +1,2 @@
+checked_at_utc,url,status,http_code,response_ms,attempts,error
+2026-11-21T04:05:42+00:00,https://pavelgradov.ru/,down,502,858,2,HTTP 502
