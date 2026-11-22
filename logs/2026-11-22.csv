@@ -1,3 +1,4 @@
 checked_at_utc,url,status,http_code,response_ms,attempts,error
 2026-11-22T03:36:28+00:00,https://pavelgradov.ru/,down,,287,2,URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1081)>
 2026-11-22T11:56:09+00:00,https://pavelgradov.ru/,up,200,1421,1,
+2026-11-22T18:50:04+00:00,https://pavelgradov.ru/,up,200,1341,1,
